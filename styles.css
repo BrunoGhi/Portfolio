@@ -1,0 +1,180 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  /* Estilos de la presentacion */
+.presentacion{
+    background-color: #404040;
+}
+
+.caja-presentacion {
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    background-color: whitesmoke; 
+    border-radius: 20px;
+}
+
+.caja-imagen {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+.caja-imagen img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover; /* Para que la imagen se ajuste y cubra completamente el área de la caja */
+    border-radius: 50%;
+    align-self: center;
+}
+
+.caja-nombre {
+   
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+}
+.caja-nombre h1,
+.caja-nombre h4,
+.caja-nombre p {
+    text-align: left;
+    margin: 10px;
+}
+
+
+
+/* Estilos de seccion central */
+
+
+.habilidades {
+    height: 100vh;
+    background-color: whitesmoke; /* Color de fondo para la sección */
+}
+
+.caja-habilidades {
+    max-width: 800px;
+    margin: 0 auto; /* Centra la caja en el contenedor */
+    padding: 20px;
+}
+
+.caja-interna-habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caja-interna-habilidades li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.caja-interna-habilidades li img {
+    margin-right: 10px;
+    width: 40px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+.proyectos {
+    background-color: #404040;
+    padding: 50px 0;
+    display: block;
+    height: 70vh;
+    
+}
+
+.proyectos h2 {
+    color: whitesmoke;
+}
+.contenedor-proyectos {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-proyecto {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+}
+
+.tarjeta-proyecto img {
+    max-width: 100%;
+    height: 40%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.tarjeta-proyecto h5 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta-proyecto p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.tarjeta-proyecto a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/* Estilos de Contacto */
+.info-contacto {
+    background-color: whitesmoke;
+    height: 50vh;
+    padding: 10px;
+}
+ .caja-contacto {
+    align-items: center;
+    justify-content: center;
+ }
+
+
+
+.caja-contacto a img {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
